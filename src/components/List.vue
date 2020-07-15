@@ -1,7 +1,7 @@
 <template>
-  <ol class="list">
+  <ul class="list">
     <li v-for="(task, i) in list" :key="i">{{ task }}</li>
-  </ol>
+  </ul>
 </template>
 
 <script>
