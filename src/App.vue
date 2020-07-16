@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <h1>Todo list</h1>
+    <h2>{{numTask}}</h2>
     <TaskInput />
     <List/>
   </div>
