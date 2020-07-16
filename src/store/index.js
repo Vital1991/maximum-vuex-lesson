@@ -17,4 +17,9 @@ export default new Vuex.Store({
       commit('addTask', task);
     },
   },
+  getters: {
+        numTask(state) {
+            return state.list.length
+        },
+    },
 });
